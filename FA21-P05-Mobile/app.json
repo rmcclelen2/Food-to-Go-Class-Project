@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "FA21-P05-G01-Mobile",
+    "slug": "FA21-P05-G01-Mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/borgar.png",
+    "splash": {
+      "image": "./assets/borgar.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2C2929"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.expo.cmps383_FA21_P05_G01_Mobile",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
